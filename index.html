@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastronomía Market</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Gastronomía Market - Yeferson Rosales</h1>
+    <form id="formProveedor">
+        <input type="text" id="nombre" placeholder="Nombre del proveedor" required>
+        <input type="text" id="articulo" placeholder="Artículo" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <input type="text" id="pais" placeholder="País">
+        <label for="internacional">Proveedor Internacional</label>
+        <input type="checkbox" id="internacional">
+        <button type="submit">Agregar Proveedor</button>
+    </form>
+    
+    <div id="tablaProveedores"></div>
+
+   <script type="module" src="./assets/js/index.js"></script>
+</body>
+</html>
